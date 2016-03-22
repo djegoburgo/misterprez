@@ -1,0 +1,229 @@
+body {
+  margin: 50px auto;
+  background: #B2B2B2;
+}
+
+#header {
+  max-width : 100%;
+  background-color: #EDEDED;
+  text-align: center;
+  color : black;
+}
+
+#header h1{
+  background-color: #2dc0e0;
+  font-family: 'Lato 900', sans-serif;
+  font-size: 28px; 
+  color: white;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+
+#gumroad {
+  max-width : 100%;
+  background-color: #EDEDED;
+}
+
+#what {
+  margin-top: 50px;
+  margin-bottom: 3em;
+  padding-left: 30px;
+}
+
+#what h1{
+  font-size: 21px;
+  margin-bottom: 0;
+  letter-spacing: 0.03rem;
+  color: #D50011;
+}
+
+#what h2{
+  font-size: 12px;
+  color: #C1C1C1;
+  text-transform: uppercase;
+  padding-top: 3px;
+  letter-spacing: 0.03rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#what p{
+  font-family: 'Lato 100', sans-serif;
+  color: #666;
+  line-height: 150%;
+
+}
+
+#what ul {
+  font-family: 'Lato 100', sans-serif;
+  list-style: none;
+  padding: 0px;
+  color: #666;
+  line-height: 150%;
+
+}
+
+.testimonials{
+  padding: 10px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  background-color: #EDEDED;
+  text-align: center;
+}
+
+.testimonials img {
+  border-radius: 50%;
+  margin-bottom: 5px;
+
+}
+
+.testimonials li{ 
+  display:none;
+}
+
+.testimonials ul{
+  list-style:none;
+}
+
+.testimonials h1{
+  font-family: 'Lato 700', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 15px; 
+}
+
+.testimonials h2{
+  color: #fad7d7;
+  font-family: 'Lato 400', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+}
+
+.testimonials p{
+  font-family: 'Lato 900', sans-serif;
+  font-weight: 400; 
+  color: #ffcccc;
+}
+
+
+.testimonials p.author a,
+.testimonials p.author a:hover,
+.testimonials p.author a:visited{
+  color: #D50011;
+}
+
+/* mailchimp form */
+#mc_embed_signup {
+  clear: both;
+  margin: 48px auto 18px;
+  width: 70%; 
+}
+#mc_embed_signup:before,
+#mc_embed_signup:after {
+    content: " ";
+    display: table;
+}
+#mc_embed_signup:after {
+    clear: both;
+}
+
+#mc_embed_signup input {
+  display: inline-block;
+  float: left;
+}
+#mc_embed_signup input[type="email"] {  
+  font-size: 15px;
+  height: 53px;
+  line-height: 30px;
+  padding: 12px 15px;
+  border-radius: 6px 0 0 6px; 
+  background: #727272;
+  background: rgba(255, 255, 255, 1);  
+  width: 70%;
+}
+#mc_embed_signup input[type="submit"] {
+  font-size: 15px;
+  line-height: 30px;
+  height: 52px;
+  padding: 12px 30px;
+  margin: 0 0 18px 0;
+  border-radius: 0 6px 6px 0; 
+  background: #197C28;
+  background: rgba(204, 0, 0, 1); 
+  width: 30%; 
+}
+#mc_embed_signup input[type="submit"]:hover {
+  background: #146320;
+}
+
+
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+/**  blockquote {
+  background: url(https://dl.dropbox.com/u/96099766/RotatingTestimonial/open-quote.png) 0 0 no-repeat;
+  font-size: 24px;
+  text-align: center; **/
+}
+
+.people {
+  text-align: center;
+}
+
+.rating .fa {
+  color: #ffc016;
+}
+
+
+#copyright p{
+  text-align: center;
+  margin: 20px;
+  color: #ffcccc;
+  padding: 40px;
+}
+
+.pages h3{
+  text-align: center;
+  margin: 20px;
+  color: #ffcccc;
+  padding: 40px;
+}
+
+#telecharger img:hover{
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.pages li {
+  padding: 60px;
+  display: inline;
+}
+
+.pages img {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(230,230,230,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(230,230,230,1);
+box-shadow: 10px 10px 5px 0px rgba(230,230,230,1);
+}
+
+.zoom_img img{
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+}
+.zoom_img img:hover{
+-moz-transform:scale(2.5); 
+-webkit-transform:scale(2.5);
+-o-transform:scale(2.5);
+}
